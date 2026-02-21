@@ -9,7 +9,23 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Laima Portfolio</title>
+    <title>Laima | Product designer</title>
+    <meta name="description" content="Product designer with 5 years of experience specializing in user research and design systems." />
+    
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lvainina.eu/" />
+    <meta property="og:title" content="Laima | Product designer" />
+    <meta property="og:description" content="Product designer with 5 years of experience specializing in user research and design systems." />
+    <meta property="og:image" content="https://lvainina.eu/Images/portfolio-preview.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lvainina.eu/" />
+    <meta property="twitter:title" content="Laima | Product designer" />
+    <meta property="twitter:description" content="Product designer with 5 years of experience specializing in user research and design systems." />
+    <meta property="twitter:image" content="https://lvainina.eu/Images/portfolio-preview.jpg" />
+    
     <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_io/favicon-16x16.png">
@@ -41,7 +57,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
           <div class="hero-text">
             <div class="hero-name">
               <div class="hi">Hi! I Am</div>
-              <div class="name">Laima Vaini&#x146;a.</div>
+              <div class="name">Laima Vainina.</div>
             </div>
             <div class="hero-exp">
               <div class="years">05</div>
