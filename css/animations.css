@@ -1,0 +1,87 @@
+/* Reusable motion styles and keyframes. */
+.project-card-link {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Impact card motion states. */
+.impact-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.25s ease;
+}
+
+.impact-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.impact-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.impact-seq {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.impact-card.is-visible .impact-seq {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+  transition-delay: var(--delay, 0s);
+}
+
+.tabs button {
+  transition: color 0.3s ease;
+}
+
+/* Tabs/rounds transition animations. */
+.tabs button.active::after {
+  animation: tabUnderlineIn 0.3s ease;
+}
+
+.round-content.is-entering {
+  animation: roundContentEnter 0.4s ease-in-out;
+}
+
+.round-content.is-leaving {
+  animation: roundContentExit 0.4s ease-in-out;
+}
+
+@keyframes tabUnderlineIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scaleX(0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scaleX(1);
+  }
+}
+
+@keyframes roundContentEnter {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes roundContentExit {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}

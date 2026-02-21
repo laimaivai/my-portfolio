@@ -1,0 +1,40 @@
+/* Global theme tokens used across all pages. */
+:root {
+  --bg: #faf6f0;
+  --ink: #2b3a52;
+  --text: #1a1a1a;
+  --muted: #818181;
+  --light: #faf6f1;
+  --white: #ffffff;
+  --accent: #de3343;
+  --border: #e4e7ec;
+
+  /* Shared spacing scale */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-md: 24px;
+  --space-xl: 40px;
+  --space-2xl: 60px;
+
+  /* Semantic spacing tokens for case-study content rhythm */
+  --space-section-header-body: var(--space-md);
+  --space-section-subtitle-body: var(--space-xs);
+  --space-section-subsection-gap: var(--space-xl);
+  --space-section-divider-gap: var(--space-xl);
+  --space-section-media-body: var(--space-md);
+  --space-section-media-inset: var(--space-md);
+}
+
+/* Base reset and app typography defaults. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+}

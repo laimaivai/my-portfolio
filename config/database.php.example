@@ -1,0 +1,10 @@
+<?php
+// Database connection configuration
+// Copy this file to database.php and update with your actual credentials
+
+return [
+    "dsn" => "mysql:host=localhost;dbname=your_database_name;charset=utf8mb4",
+    "username" => "your_database_username",
+    "password" => "your_database_password"
+];
+?>

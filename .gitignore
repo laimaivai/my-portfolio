@@ -1,0 +1,45 @@
+# Database credentials - never commit real passwords!
+config/database.php
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.ico
+.com.apple.timemachine.donotpresent
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User uploaded files (if you add file upload functionality)
+uploads/
+storage/*.pdf
+!storage/.gitkeep
+
+# Environment files
+.env
+.env.local
