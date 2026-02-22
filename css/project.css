@@ -238,6 +238,11 @@
   margin-top: var(--space-section-media-body);
 }
 
+/* Spacing between consecutive images */
+.story-section > img + img {
+  margin-top: 24px;
+}
+
 /* Image quality and display settings */
 .story-section > img,
 .img-zoom-container img,

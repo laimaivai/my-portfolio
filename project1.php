@@ -291,6 +291,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                 <h2>Unified partner management</h2>
               </header>
               <img src="Images/directory.png" alt="partner directory" width="751" height="552" />
+              <img src="Images/directory_result.png" alt="partner directory results" width="751" height="552" />
             </section>
 
             <hr class="divider" />
