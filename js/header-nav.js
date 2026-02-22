@@ -1,3 +1,29 @@
+// Sticky header scroll effect
+(() => {
+	const header = document.querySelector('.header');
+	if (!header) {
+		return;
+	}
+
+	let lastScrollY = window.scrollY;
+	const scrollThreshold = 50;
+
+	const handleScroll = () => {
+		const currentScrollY = window.scrollY;
+		
+		if (currentScrollY > scrollThreshold) {
+			header.classList.add('scrolled');
+		} else {
+			header.classList.remove('scrolled');
+		}
+		
+		lastScrollY = currentScrollY;
+	};
+
+	window.addEventListener('scroll', handleScroll, { passive: true });
+	handleScroll(); // Check initial state
+})();
+
 // Header nav: keep one active item on click and hash updates.
 (() => {
 	const menuLinks = Array.from(document.querySelectorAll('.menu a'));
