@@ -290,7 +290,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                 <span>Solution</span>
                 <h2>Unified partner management</h2>
               </header>
-              <img src="Images/final_result.png" alt="Final result" />
+              <img src="Images/directory.png" alt="partner directory" width="751" height="552" />
             </section>
 
             <hr class="divider" />
@@ -302,17 +302,15 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
               </header>
               <div class="learning-cards">
                 <article>
-                  <h3>Designing for complexity means designing for flexibility</h3>
+                  <h3>Designing for organizational diversity is an architecture problem, not a UI problem</h3>
                   <p>
-                    Instead of forcing every partner into one rigid model, embracing adaptable
-                    structure makes systems resilient.
+                    The most impactful design decisions in this project were structural. Getting the data model right (flexible hierarchy) determined whether the system would work across all 4 countries.
                   </p>
                 </article>
                 <article>
-                  <h3>Shared models reduce cross-country friction</h3>
+                  <h3>B2B internal tools deserve the same design rigor as consumer products</h3>
                   <p>
-                    A common information model and language creates alignment between local teams
-                    and leadership.
+                    Partnership managers use this system daily. The quality of the tool directly affects how quickly they can assign partners during urgent claims. Designing for efficiency in a B2B context has as much real-world impact as any consumer product.
                   </p>
                 </article>
               </div>
@@ -347,6 +345,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <script src="js/toc.js"></script>
     <script src="js/impact-card.js"></script>
     <script src="js/rounds.js"></script>
+    <script src="js/image-zoom.js"></script>
     <script src="js/contact-form.js"></script>
     <script src="js/main.js"></script>
   </body>

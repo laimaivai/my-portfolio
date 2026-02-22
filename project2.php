@@ -136,6 +136,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
     <script src="js/header-nav.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/image-zoom.js"></script>
     <script src="js/contact-form.js"></script>
     <script src="js/main.js"></script>
     <script>
