@@ -72,8 +72,8 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
 
           <div class="hero-text">
             <div class="hero-name">
-              <div class="hi">Hi! I Am</div>
-              <div class="name">Laima Vainina.</div>
+              <div class="hi">Hi! I'm</div>
+              <div class="name">Laima Vainina</div>
             </div>
             <div class="hero-exp">
               <div class="years">05</div>
@@ -114,14 +114,9 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                 <img src="Images/Figma.svg" alt="Figma" />
               </div>
               <div class="intro-bubble">
-                <img class="intro-arrow" src="https://www.figma.com/api/mcp/asset/3fd316da-6036-4c34-aadd-966d8477d7cb" alt="" />
-                <div class="pill">
-                  <img
-                    class="pill-avatar"
-                    src="https://www.figma.com/api/mcp/asset/1d4fe3bc-ae05-4081-9f74-41f9fe2d70c0"
-                    alt=""
-                  />
-                  <span>Laima</span>
+                <img class="intro-cursor" src="Images/cursor.svg" alt="" />
+                <div class="comment-bubble">
+                  <span>What did users say?</span>
                 </div>
               </div>
             </div>

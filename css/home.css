@@ -156,67 +156,60 @@
 }
 
 .intro-tools {
-  position: relative;
-  width: 240px;
-  height: 130px;
+  display: inline-grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
 }
 
 .tool-card {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 80px;
-  height: 80px;
+  grid-column: 1;
+  grid-row: 1;
+  width: 69.28px;
+  height: 67.34px;
   background: var(--white);
-  border-radius: 12px;
+  border-radius: 5.6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.12), 0 6px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 10px rgba(129, 129, 129, 0.17);
 }
 
 .intro-bubble {
-  position: absolute;
-  left: 90px;
-  bottom: 0;
-  width: 200px;
-  height: 60px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 53.48px;
+  margin-top: 52.72px;
+  display: inline-grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
 }
 
-.intro-arrow {
-  position: absolute;
-  right: 8px;
-  top: 18px;
-  width: 21.08px;
-  height: 28.25px;
-  transform: rotate(-23.51deg) scaleY(0.99) skewX(8.55deg);
+.intro-cursor {
+  grid-column: 1;
+  grid-row: 1;
+  width: 24px;
+  height: 29px;
 }
 
-.pill {
-  position: absolute;
-  left: 0;
-  top: 14px;
-  width: 134.24px;
-  height: 32.35px;
+.comment-bubble {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 18px;
+  margin-top: 20px;
   background: var(--ink);
-  border-radius: 122.92px;
-  display: flex;
-  align-items: center;
-  gap: 6.47px;
-  padding: 3.24px 12.94px 3.24px 4.85px;
+  border: 2px solid #212d3f;
+  border-radius: 2px 24px 24px 24px;
+  padding: 8px 20px 8px 16px;
   color: var(--white);
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.6;
-  box-shadow: 0 0 8.09px rgba(0, 0, 0, 0.02), 0 3.24px 16.17px rgba(0, 0, 0, 0.06),
-    0 0 1.62px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  box-shadow: 4px 4px 10px rgba(43, 58, 82, 0.2);
 }
 
-.pill-avatar {
-  width: 25.88px;
-  height: 25.88px;
-  border-radius: 50%;
-  border: 0.39px solid #d0d5dd;
-  object-fit: cover;
+.comment-bubble span {
+  display: block;
 }
 
 .role {
