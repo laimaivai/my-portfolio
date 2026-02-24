@@ -5,6 +5,8 @@
 		return;
 	}
 
+	nameEl.style.willChange = 'background-position';
+
 	window.gsap.to(nameEl, {
 		backgroundPosition: '200% 50%',
 		duration: 2.2,

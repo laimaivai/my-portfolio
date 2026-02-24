@@ -33,7 +33,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@400;600;700&family=MuseoModerno:wght@700&family=Poppins:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@400;600;700&family=MuseoModerno:wght@700&family=Poppins:wght@400;500;600&display=block"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -93,7 +93,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                   <circle cx="186.5" cy="250.5" r="134.03" />
                 </clipPath>
               </defs>
-              <image href="Images/Me.svg" width="386.01" height="390.03" clip-path="url(#hero-clip)" preserveAspectRatio="xMidYMid slice" />
+              <image href="Images/me.png" width="386.01" height="390.03" clip-path="url(#hero-clip)" preserveAspectRatio="xMidYMid slice" />
             </svg>
             <svg class="hero-ring" width="268.06" height="268.06" viewBox="0 0 268.06 268.06" aria-hidden="true">
               <defs>
@@ -114,7 +114,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                 <img src="Images/Figma.svg" alt="Figma" />
               </div>
               <div class="intro-bubble">
-                <img class="intro-cursor" src="Images/cursor.svg" alt="" />
+                <img class="intro-cursor" src="Images/cursor.svg" alt="" width="24" height="29" />
                 <div class="comment-bubble">
                   <span>What did users say?</span>
                 </div>
